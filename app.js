@@ -9,3 +9,6 @@ for (i = 0; i < 32; i++) {
     break;
   }
 }
+var currentMonth = moment().format("MMMM YYYY")
+var h1 = document.getElementById("header")
+h1.innerText = currentMonth
